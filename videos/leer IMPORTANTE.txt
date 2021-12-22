@@ -1,0 +1,6 @@
+El video de presentación es un video de youtube que deben integrarlo a su web.
+El link del video es el siguiente: https://www.youtube.com/watch?v=MGhnYMuu7Xg
+
+El video del testimonio de Alexis también es un video de youtube por ende deben trabajarlo
+de la misma forma que el video de presentación
+El link a ese video es este: https://www.youtube.com/watch?v=J5yhiuef6T8
