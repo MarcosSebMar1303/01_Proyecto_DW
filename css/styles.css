@@ -35,7 +35,7 @@
 
 
 .logo-rmove {
-    width: 80% auto;
+    width: 90% auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,18 +43,19 @@
 }
 
 .logo-rmove img {
-    width: 200px;
+    width: 350px;
 }
 
 /* menu */
 
 .menu {
-    width: 80% auto;
+    width: 90% auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     gap: 15px;
+    font-size: 20px;
 }
 
 .menu a {
@@ -74,7 +75,7 @@
 /* img-raya */
 
 .img-raya {
-    width: 80% auto;
+    width: 90% auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +83,7 @@
 }
 
 .img-raya img {
-    width: 700px;
+    width: 900px;
 }
 
 
@@ -90,24 +91,32 @@
 
 
 .container__parrafos {
-    width: 80% auto;
+    width: 90% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 50px 0;
     text-align: center;
+    font-size: 25px;
+}
+.container__parrafos h3 {
+    font-size: 43px;
+    color: hsl(200, 80%, 20%);
 }
 
 .container__parrafos p:nth-child(1) {
     margin-top: 30px;
 }
+
 .container__parrafos p:nth-child(4) {
     margin-top: 30px;
 }
+
 .container__parrafos p:nth-child(5) {
     margin-top: 30px;
 }
+
 .container__parrafos p:nth-child(9) {
     margin-top: 30px;
 }
@@ -119,13 +128,6 @@
 .container__parrafos-azul {
     color: hsl(200, 80%, 20%);
 }
-.container__parrafos-azul span {
-    font-weight: bold;
-}
-
-.container__parrafos-gris {
-    color: grey;
-}
 
 .container__parrafos-gris span {
     font-style: italic;
@@ -134,7 +136,7 @@
 
 .container__video-banner2 {
     background-color: rgba(226, 223, 223, 0.5);
-    width: 80% auto;
+    width: 90% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +151,7 @@
 /* section img-caricatura-gimnasta */
 
 .img-caricatura-gimnasta {
-    width: 80% auto;
+    width: 90% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,33 +160,50 @@
 }
 
 .img-caricatura-gimnasta img {
-    width: 300px;
+    width: 400px;
 }
 
 .img-caricatura-gimnasta p {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 /* Section container__imagen */
 
 .container__imagen {
-    width: 80% auto;
+    width: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: stretch;
     margin-top: 50px;
     gap: 10px;
-    text-align: center;
 }
 
+.container__imagen-ejercicio {
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.container__imagen-ejercicio img {
+    width: 400px;
+    height: 200px;
+}
+
+.container__imagen-ejercicio p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* Section terraza */
 
 
 .container-terraza {
-    width: 80% auto;
+    width: 90% auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -193,7 +212,7 @@
 }
 
 .container-terraza img {
-    width: 500px;
+    width: 400px;
 }
 
 .terraza__formulario {
@@ -202,6 +221,7 @@
     justify-content: center;
     gap: 10px;
     padding: 50px;
+    margin-left: 80px;
 }
 
 .terraza__formulario p:first-child {
@@ -209,9 +229,11 @@
 }
 .terraza__formulario p:nth-child(2) {
     color: rgb(150, 152, 154);
+    font-size: 19px;
 }
 .terraza__formulario p:nth-child(4) {
     color: rgb(150, 152, 154);
+    font-size: 19px;
 }
 
 .terraza__formulario span {
@@ -231,10 +253,7 @@
     height: 40px;
     border-radius: 5px;
     padding-left: 15px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border: 0;
 }
 
 .terraza__formulario button {
@@ -243,10 +262,7 @@
     background-color: hsl(195, 100%, 75%);
     height: 40px;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border: 0;
 }
 
 
@@ -263,9 +279,9 @@
 }
 
 .testimonio-alexis-frase {
-    width: 80% auto;
+    width: 90% auto;
     height: 150px;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
     display: flex;
     text-align: center;
@@ -303,7 +319,7 @@
 
 
 .contenido-instagram {
-    width: 80% auto;
+    width: 90% auto;
 }
 
 .logo-instagram {
@@ -322,10 +338,6 @@
     font-size: 20px;
     background-color: rgb(150, 152, 154);
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .galeria {
@@ -334,19 +346,57 @@
     justify-content: space-evenly;
     gap: 30px;
     width: 80% auto;
+    position: relative;
 }
 
 .galeria img {
-    width: 290px;
-    height: 290px;
+    width: 300px;
+    height: 330px;
 }
+
+.galeria .icon-clon1 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 240px;
+    font-size: 20px;
+}
+
+.galeria .icon-clon2 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -500px;
+    font-size: 20px;
+}
+
+.galeria .icon-clon3 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 990px;
+    font-size: 20px;
+}
+
+.galeria .icon-clon4 {
+    position: absolute;
+    margin-top: 375px;
+    margin-left: -500px;
+    font-size: 20px;
+}
+
+.galeria .icon-play {
+    position: absolute;
+    margin-top: 500px;
+    font-size: 60px;
+    color: white;
+}
+
+
 
 /* Section contenido-frase */
 
 .contenido-frase {
-    width: 80% auto;
-    margin: 70px 0 70px 100px;
+    width: 90% auto;
     height: 100px;
+    margin: 70px 0 70px 100px;
     color: hsl(200, 80%, 20%);
     padding: 50px 0;
     font-size: 20px;
@@ -415,8 +465,9 @@
 .boton-circular {
     background-color: hsl(200, 80%, 20%);
     border-radius: 50%;
-    width: 30px;
-    margin-left: 93%;
+    font-size: 30px;
+    width: 50px;
+    margin-left: 92%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,4 +475,8 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.boton-circular .icon-up {
+    color: white;
 }
